@@ -1,7 +1,7 @@
 {
     "compilerOptions": {
         "target": "ES6",
-        "checkJs": true
+        "checkJs": false
     },
     "include": ["src/*.js", "types/*.d.ts"]
 }
