@@ -1,7 +1,6 @@
 function setup() {
     createCanvas(400, 400);
     background(100);
-    rectMode(CENTRE);
 }
 
 function draw() {
@@ -9,6 +8,7 @@ function draw() {
 }
 
 function mousePressed() {
+    rectMode(CENTRE);
     const colour = randomColour();
     fill(colour);
     square(mouseX, mouseY, 100);
