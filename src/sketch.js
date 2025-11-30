@@ -8,7 +8,7 @@ function draw() {
 }
 
 function mousePressed() {
-    rectMode(SQAURE);
+    rectMode(CENTRE);
     square(width / 2, hieght / 2, 100);
 }
 
