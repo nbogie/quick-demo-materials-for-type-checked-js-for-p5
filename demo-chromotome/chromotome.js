@@ -1,7 +1,17 @@
+//@ts-check
 //Extracted from https://github.com/kgolid/chromotome
 //MIT License
 //Copyright (c) 2019 Kjetil Midtgarden Golid
 
+/**
+ * @typedef {Object} KGPalette
+ * @property {string} name
+ * @property {string[]} colors
+ * @property {string=} background
+ * @property {string=} stroke
+ */
+
+/** @type {KGPalette[]} */
 const palettes = [
     {
         name: "frozen-rose",
@@ -845,7 +855,7 @@ const palettes = [
             "#dcd9d0",
         ],
         stroke: "#26265a",
-        backgrund: "#dcd9d0",
+        background: "#dcd9d0",
     },
     {
         name: "system.#05",
@@ -1064,7 +1074,7 @@ const palettes = [
     {
         name: "florida_citrus",
         colors: ["#ea7251", "#ebf7f0", "#02aca5"],
-        stroe: "#050100",
+        stroke: "#050100",
         background: "#9ae2d3",
     },
     {
@@ -1097,13 +1107,9 @@ const palettes = [
         stroke: "#221e1f",
         background: "#fcefdf",
     },
+
     {
-        name: "bloomberg",
-        stroke: "#000",
-        background: "#fff3dd",
-    },
-    {
-        name: "giftcard_sub",
+        name: "kgolidpaletteN",
         colors: [
             "#FBF5E9",
             "#FF514E",
